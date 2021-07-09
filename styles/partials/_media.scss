@@ -1,0 +1,124 @@
+@media (max-width: 900px) {
+    
+    #main-content {
+        flex-direction: column-reverse;
+        height: 100%;
+        #menu {
+            width: 100%;
+            height: 53%;
+            #illustration-devices {
+                position: absolute;
+                top: 30%;
+                left: 3%;
+                width: 130%;
+            }
+            #navbar {
+                margin-left: 50%;
+                #menu-button {
+                    display: block !important;
+                    position: absolute;
+                    top: 10%;
+                    right: 9%;
+                    transition: 250ms linear;
+                    cursor: pointer;
+                }
+                #menu-closed {
+                    display: block !important;
+                    position: absolute;
+                    top: 10%;
+                    right: 9.5%;
+                    visibility: hidden;
+                    transition: 150ms linear;
+                    cursor: pointer;
+
+                }
+                .closed {
+                    visibility: visible !important;
+                    transform: scale(1) rotate(180deg);
+                }
+                .opened {
+                    visibility: hidden !important;
+                    transform: scale(0) rotate(180deg);
+                }
+            }
+            #navbar-wrapper {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                position: absolute;
+                top: 25%;
+                left: 8%;
+                background-color: white;
+                width: 82.5%;
+                height: 235px;
+                z-index: 10;
+                box-shadow: -1px 4px 10px #0000002e;
+                transition: 250ms ease-in-out;
+                #dot {
+                    width: 80% !important;
+                    height: 1px !important;
+                    border-radius: 0 !important;
+                }
+                a {
+                    font-size: 18px !important;
+                }
+            }
+
+            .hide {
+                transform: translateY(-90%) scale(0.1);
+                opacity: 0.5;
+                visibility: hidden;
+            }
+            .show {
+                transform: translateY(0%) scale(1);
+                opacity: 1;
+            }
+
+
+
+
+        }
+        #demo {
+            width: 100%;
+            height: 47%;
+            #demo-wrapper {
+                margin: 7% 8.5%  !important; 
+                h1 {
+                    font-size: 40px;
+                    margin-top: 16px;
+                }
+                h2 {
+                    width: 90% !important;
+                    margin-top: 17px;
+                    margin-bottom: 30px;
+                }
+                #button-box {
+                    #button {
+                        height: 40px !important;
+                        max-width: 153px !important;
+                        font-size: 18px;
+                        margin-right: 20px !important;
+                        p {
+                            font-size: 13px;
+                            letter-spacing: 1.5px;
+                        }
+                    }
+                    p {
+                        font-size: 13px;
+                        letter-spacing: 3px;
+                    }
+                }
+                
+            }
+        }
+        #logo-image {
+            position: absolute;
+            width: 24px !important;
+            height: 24px !important;
+            top: 5%;
+            left: 9%;
+            margin: 0 !important;
+            z-index: 1;
+        }
+    }
+}

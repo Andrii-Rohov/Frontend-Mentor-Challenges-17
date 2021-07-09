@@ -1,0 +1,96 @@
+#demo {
+    display: flex;
+    flex-direction: column;
+    width: 51%;
+    background-color:white;
+    #demo-wrapper {
+        margin: 64px 0% 0% 22.4%;
+        #logo-image {
+            width: 32px;
+            height: 32px;
+            display: block;
+            margin-bottom: 160px;
+        }
+        #dashboard {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+
+        }
+        #button-box {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: center;
+
+        }
+        #button {
+             display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $Red;
+            border-radius: 6px;
+            width: 184px;
+            height: 48px;
+            margin-right: 25px;
+            p {
+                color: white;
+                font-family: $Barlow-Condensed;
+                font-weight: 700;
+                letter-spacing: 1px;
+                font-size: 17px;
+                
+            }
+            &:hover {
+                cursor: pointer;
+                background-color: hsla(0, 100%, 68%, 0.75);
+            
+            }   
+        }
+        #new {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $Very-Dark-Blue;
+            border-radius: 14px;
+            width: 48px;
+            height: 25px;
+            margin-right: 15px;
+            p {
+                color: white;
+                font-family: $Barlow-Condensed;
+                font-weight: 700;
+                letter-spacing: 1px;
+                font-size: 14px;
+            }
+        }
+        p {
+            font-family: $Barlow-Condensed;
+            color: $Grayish-Blue;
+            text-transform: uppercase;
+            font-size: 15px;
+            letter-spacing: 5px;
+            margin: 0;
+            
+        }
+        h1 {
+            font-family: $Barlow-Condensed;
+            color: $Very-Dark-Blue;
+            text-transform: uppercase;
+            font-size: 64px;
+            margin: 20px 0 0;
+            line-height: 1;
+        }
+        h2 {
+            font-family: $Barlow;
+            color: $Dark-Grayish-Blue;
+            font-weight: 400;
+            font-size: 18px;
+            width: 50%;
+            letter-spacing: 0px;
+            margin: 30px 0px 65px;
+            line-height: 25px;
+        }
+    }
+}

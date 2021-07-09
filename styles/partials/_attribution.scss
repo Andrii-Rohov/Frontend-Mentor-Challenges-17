@@ -1,0 +1,16 @@
+.attribution {
+    font-family: $Barlow-Condensed;
+    text-align: center;
+    font-size: 18px;
+    color: $Dark-Grayish-Blue;
+    
+    margin-top: 10%;
+    a {
+        color: $Red;
+        font-weight: 700;
+        text-decoration: none;
+        &:hover {
+            text-decoration: underline;
+        }
+    }
+}

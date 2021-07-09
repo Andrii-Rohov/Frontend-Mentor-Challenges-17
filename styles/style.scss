@@ -1,0 +1,36 @@
+$Red: hsl(0, 100%, 68%);
+
+$Very-Dark-Blue: hsl(230, 29%, 20%);
+$Dark-Grayish-Blue: hsl(230, 11%, 40%);
+$Grayish-Blue: hsl(231, 7%, 65%);
+$Light-Grayish-Blue: hsl(207, 33%, 95%);
+
+$Barlow: 'Barlow', sans-serif;
+$Barlow-Condensed: 'Barlow Condensed', sans-serif;
+
+@import "./partials/menu";
+@import "./partials/demo";
+@import "./partials/attribution";
+@import "./partials/menu";
+
+
+body {
+  
+    margin: 0;
+}
+
+#main-content {
+    display: flex;
+    flex-direction: row;
+    height: 800px;
+    
+}
+
+
+
+
+
+
+ 
+  
+
